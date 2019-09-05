@@ -22,12 +22,22 @@ https://www.iconfinder.com/Makoto_msk
 
                 </ul>
                 <Link to= "/cart" className="ml-auto">
+               
                 <ButtonContainer>
                     <span className="mr-2">
                         <i className="fas fa-cart-plus"/>My Cart
                     </span>
                     </ButtonContainer>
                 </Link>
+                <ButtonContainer>
+                    <span className="mr-2">
+                    <i class="fa fa-mobile" aria-hidden="true">8050947645</i>
+                    </span>
+                    <span className="mr-2">
+                      <i class="fa fa-phone" aria-hidden="true">180018002345</i>
+                    </span>
+                    </ButtonContainer>
+                
             </NavWrapper>
         )
     }
